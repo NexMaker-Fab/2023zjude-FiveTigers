@@ -4,7 +4,7 @@ Hello!&nbspThis is our Team!</br></br>
 </center>
 
 <center style="font-size:50px">
-We are the <span style="color:#ea6f5a;font-size:80px;font-weight:800">Five Tigers</span> !
+We are the <span style="color:orange;font-size:80px;font-weight:800">Five Tigers</span> !
 </center>
 
 
@@ -13,7 +13,7 @@ We are the <span style="color:#ea6f5a;font-size:80px;font-weight:800">Five Tiger
 <div style="position:relative;top:100px;left: -100px;margin：0px auto" >
 
   <div style="background-color:;width:250px;margin-left:0px;position:absolute">
-  <a href="https://yousia33.github.io/YousiaBlog/" style="text-decoration:none;color:#ea6f5a">
+  <a href="https://yousia33.github.io/YousiaBlog/" style="text-decoration:none;color:orange">
     <img src="img/mzy.png">
     <br>
     <center>
@@ -24,7 +24,7 @@ We are the <span style="color:#ea6f5a;font-size:80px;font-weight:800">Five Tiger
     </a>
   <div>
   <div style="background-color:;width:250px;margin-left:0px;position:absolute;top:0px;left:300px">
-  <a href="https://zyjgraphein.github.io/zhouyujie/" style="text-decoration:none;color:#ea6f5a">
+  <a href="https://zyjgraphein.github.io/zhouyujie/" style="text-decoration:none;color:orange">
     <img src="img/zyj.jpg">
     <br>
     <center>
@@ -35,7 +35,7 @@ We are the <span style="color:#ea6f5a;font-size:80px;font-weight:800">Five Tiger
     </a>
   <div>
    <div style="background-color:;width:250px;margin-left:0px;position:absolute;top:0px;left:300px">
-   <a href="https://lireeeeen.github.io/Hello/" style="text-decoration:none;color:#ea6f5a">
+   <a href="https://lireeeeen.github.io/Hello/" style="text-decoration:none;color:orange">
     <img src="img/zjr.png">
     <br>
     <center>
@@ -46,7 +46,7 @@ We are the <span style="color:#ea6f5a;font-size:80px;font-weight:800">Five Tiger
     </a>
   <div>
    <div style="background-color:;width:250px;margin-left:0px;position:absolute;top:0px;left:300px">
-   <a href="http://www.baidu.com" style="text-decoration:none;color:#ea6f5a">
+   <a href="https://wzzyjya.github.io/" style="text-decoration:none;color:orange">
     <img src="img/wzz.jpg">
     <br>
     <center>
@@ -57,7 +57,7 @@ We are the <span style="color:#ea6f5a;font-size:80px;font-weight:800">Five Tiger
     </a>
   <div>
    <div style="background-color:;width:250px;margin-left:0px;position:absolute;top:0px;left:300px">
-   <a href="http://www.baidu.com" style="text-decoration:none;color:#ea6f5a">
+   <a href="http://www.baidu.com" style="text-decoration:none;color:orange">
     <img src="img/ljh.jpg">
     <br>
     <center>

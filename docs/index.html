@@ -7,9 +7,28 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
-  
-
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
+  <style>
+    :root {
+      --theme-color: orange;
+     }
+    body{
+      background: #e8e8e8;
+      color:gray;
+    }
+    .sidebar{
+      background: black;
+      color:gray;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color:orange;
+    }
+    .center {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -22,11 +41,19 @@
       subMaxLevel: 2,
       coverpage:true,
       onlyCover:true,
+      search: {
+        paths: 'auto',
+        placeholder: 'Search',
+        noData: 'no result',
+        depth: 2,
+      },
       
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
   
 </body>
