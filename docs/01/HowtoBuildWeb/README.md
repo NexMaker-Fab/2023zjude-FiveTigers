@@ -8,7 +8,10 @@ You need to download the following to create a page:
 * Node.js
 * Visual Studio Code
 * Picgo
-* Git ( for Windows )
+* Git
+  
+>[!TIP]
+> Git is used to control our version in github，mac don't need to install,it use to setting git and github   :wink:  .
 
 ## Initialize
 Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html) and [docsify documentation](https://docsify.js.org/#/)
