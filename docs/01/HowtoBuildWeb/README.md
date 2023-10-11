@@ -154,17 +154,13 @@ Reference：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/git
 
 ## Markdown typography
 ### How to center a picture
+
 Insert the following HTML statement in the markdown text.
+
 ```html
 <center>
   <img src="image url">
 </center>
 ```
 
-<center>
-  <img src="../../img/webpage/cat.jpg" style="heigt:100px;width:100px">
-</center>
 
-<center>
-  This is a TIGER.
-</center>
