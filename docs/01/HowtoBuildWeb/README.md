@@ -17,12 +17,14 @@ You need to download the following to create a page:
 Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html) and [docsify documentation](https://docsify.js.org/#/)
 
 1. Open a folder with Visual Studio Code ( Ctrl+K Ctrl+O ).
+   
+2. Press **Ctrl+Shift+`** to create a terminal or you can find it in **Terminal tab**.
 
-2. Type `npm i docsify-sli -g` in terminal to install Docsify.
+3. Type `npm i docsify-sli -g` in terminal to install Docsify.
    
-3. Type `docsify init ./docs` to initialize the project.
+4. Type `docsify init ./docs` to initialize the project.
    
-4. Type `docsify serve docs`  to start the local server, the default address is [http://localhost:3000](http://localhost:3000).
+5. Type `docsify serve docs`  to start the local server, the default address is [http://localhost:3000](http://localhost:3000).
 
 ![](../../img/webpage/initialize.png)
 
@@ -132,9 +134,45 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
   </body>
   </html>
 ```
+## The relaton ship for all folders and files
+This webpage is in **HowtoBuildWeb** folder.
+
+![](../../img/webpage/relationship.png)
+
+## How to use git
+
+1. **Install Github Desktop**
+   
+   If you don't already have Github installed on your computer, you can download and install it from the official website.
+2. **Create a GitHub Account**
+   
+   If you don't have a GitHub account, you'll need to create one. Visit GitHub and sign up.
+3. **Set Up Your GitHub Repository**
+   
+   Click the "+" sign in the upper right corner of your GitHub account and select "New repository."
+   Follow the instructions to set up your repository.
+
+4. **Some thing you should know before using Github Desktop**
+   
+   Git itself only has a console version, which is difficult to use. GitHub Desktop (hereinafter referred to as Desktop) is a graphical version of Git that solves the above problems:
+   1. After the project is updated locally, you can synchronize to the code repository with one click, or you can synchronize the code repository to the local with one click.
+   
+   2. Past versions of the file are saved, so you can undo your own or even someone else's changes, mitigating the impact of errors.
+   
+   3. After modifying local files, the local automatically detects which files have been modified.
+   
+5. **How to allow collaborators to modify your repository**
+   You need to invite people first. Click `Settings/Collaborators`, enter the collaborator's nickname, click `Add Collaborators`, and he will be invited. Once he accepts it on GitHub Web, he will have permission to modify your repository.
+
+   ![](../../img/webpage/co1.png)
+   ![](../../img/webpage/co2.png)
+
+6. **How to clone,pull,push ypor project**
+   
+  Reference：[GitHub Desktop代替git指令实现GitHub仓库push/pull/clone等操作](https://blog.csdn.net/gzn00417/article/details/104281308)
 
 ## Deploy the page on Github
-Reference：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
+Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
 1. Create your repository on GitHub.
    
@@ -151,6 +189,33 @@ Reference：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/git
 3. Open your online page.
    
    ![](../../img/webpage/githubsettings.png)
+
+
+## How to set a coverpage
+
+Reference：[Official document](https://docsify.js.org/#/cover)
+
+Set `coverpage` to true, and create a `_coverpage.md`
+
+
+ ```
+ <!-- _coverpage.md -->
+
+![logo](_media/icon.svg)
+
+# docsify <small>3.5</small>
+
+> A magical documentation site generator.
+
+- Simple and lightweight
+- No statically built html files
+- Multiple themes
+
+[GitHub](https://github.com/docsifyjs/docsify/)
+[Get Started](#docsify)
+
+ ```
+   
 
 ## Markdown typography
 ### How to center a picture
