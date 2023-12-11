@@ -10,6 +10,7 @@ You need to download the following to create a page:
 * Picgo
 * Git
   
+If you want to get this page,please check:[source code](https://github.com/NexMaker-Fab/2023zjude-FiveTigers)
 >[!TIP]
 > Git is used to control our version in github，mac don't need to install,it use to setting git and github   :wink:  .
 
@@ -85,6 +86,31 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
     </script>
    ``` 
 
+## How to design a coverpage
+
+Reference：[Official document](https://docsify.js.org/#/cover)
+
+Set `coverpage` to true, and create a `_coverpage.md`
+
+
+ ```
+ <!-- _coverpage.md -->
+
+![logo](_media/icon.svg)
+
+# docsify <small>3.5</small>
+
+> A magical documentation site generator.
+
+- Simple and lightweight
+- No statically built html files
+- Multiple themes
+
+[GitHub](https://github.com/docsifyjs/docsify/)
+[Get Started](#docsify)
+
+ ```
+
 ## Change the page theme
 1. The following themes are officially available.
    
@@ -97,6 +123,8 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
   ```
 
 2. Choose one of the given topics and place it in the `<head> </head>` tag in `index.html` .
+>[!TIP]
+> Don't need any other css files.
 
 ## An example of index.html
 ```html
@@ -139,7 +167,11 @@ This webpage is in **HowtoBuildWeb** folder.
 
 ![](../../img/webpage/relationship.png)
 
-## How to use git
+## How to use Github
+
+Github webpage：[GitHub](https://github.com)
+
+Github desktop webpage：[GitHub desktop](https://desktop.github.com/)
 
 1. **Install Github Desktop**
    
@@ -171,7 +203,7 @@ This webpage is in **HowtoBuildWeb** folder.
    
   Reference：[GitHub Desktop代替git指令实现GitHub仓库push/pull/clone等操作](https://blog.csdn.net/gzn00417/article/details/104281308)
 
-## Deploy the page on Github
+## Deploy your page on Github
 Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
 1. Create your repository on GitHub.
@@ -190,34 +222,36 @@ Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1pro
    
    ![](../../img/webpage/githubsettings.png)
 
+## How to work as a team
+1. Log in to your GitHub account and go to the repository where you want to set an administrator.
 
-## How to set a coverpage
+2. Click on the "Settings" button at the top right of the page to enter the repository settings.
 
-Reference：[Official document](https://docsify.js.org/#/cover)
+3. Choose "Collaborators and teams" from the left-hand menu to access the member management page.
 
-Set `coverpage` to true, and create a `_coverpage.md`
+![](../../img/webpage/team1.png)
 
+4. Click the "Add people" button at the top right of the page, enter the GitHub username or email address of the administrator, select the role you want to give, and click "Add" button.
 
- ```
- <!-- _coverpage.md -->
+![](../../img/webpage/team2.png)
 
-![logo](_media/icon.svg)
+Your team member will receive an invitation email. They can accept the invitation by clicking the link in the email.
 
-# docsify <small>3.5</small>
+## The relationship in github for two repositories
 
-> A magical documentation site generator.
+In GitHub, the relationship between two repositories can be established by creating a submodule or using external links. To establish a relationship between two repositories, you would first create a main repository and then add the other repository as a submodule to the main repository.
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+To add a repository as a submodule to another repository, you can use the following command:
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+```
+git submodule add <url_to_repository> <path_to_submodule>
 
- ```
-   
+```
+This will create a submodule in the main repository that points to the other repository and add it to the .gitmodules file in the main repository.
 
-## Markdown typography
+For more information about repository relationships in GitHub, you can refer to the official GitHub documentation: [check this](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-relationships)
+
+<!--## Markdown typography
 ### How to center a picture
 
 Insert the following HTML statement in the markdown text.
@@ -226,6 +260,6 @@ Insert the following HTML statement in the markdown text.
 <center>
   <img src="image url">
 </center>
-```
+```-->
 
 
