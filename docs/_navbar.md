@@ -1,4 +1,7 @@
 * [Introduce](README.md)
   * [How to build a page](01/HowtoBuildWeb/README.md)
-  * [Final product](01/FinalproductIntro/README.md)
+  * [Introduce finial project](01/FinalproductIntro/README.md)
+* [CAD](02/Fusion%20360%E7%BD%91%E9%A1%B5%204d7a8c51c08f496985518b19499e2b2b.md)
+* [Arduino basics](arduino/basics.md)
+* [3D printing]()
 * [Final project]()

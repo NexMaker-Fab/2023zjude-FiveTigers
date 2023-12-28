@@ -11,7 +11,15 @@
     - [Running water lamps](arduino/waterlamps.md) 
     - [Introduction to Open Source Projects](arduino/project.md)
 
-  - [4. 3D printing]()
+  - [4. CNC machine]()
+  
+  - [5. Interface application programming]()
+  
+  - [6. 3D printing]()
+
+  - [7. Computer-controlled cutting]()
+
+
 - Final project
   - topic
   - innovation
