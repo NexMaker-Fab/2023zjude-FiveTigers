@@ -27,8 +27,7 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
    
 5. Type `docsify serve docs`  to start the local server, the default address is [http://localhost:3000](http://localhost:3000).
 
-![](../../img/webpage/initialize.png)
-
+<img src="../../img/webpage/initialize.png" width=1920>
 
 ## Customize the navigation bar
 1. Add the following to `index.html`.
@@ -136,8 +135,7 @@ Set `coverpage` to true, and create a `_coverpage.md`
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> //暗色调主题 
     
 
   </head>
@@ -162,12 +160,18 @@ Set `coverpage` to true, and create a `_coverpage.md`
   </body>
   </html>
 ```
-## The relaton ship for all folders and files
+
+<!--## The relaton ship for all folders and files
 This webpage is in **HowtoBuildWeb** folder.
 
-![](../../img/webpage/relationship.png)
+![](../../img/webpage/relationship.png)-->
 
-## How to use Github
+# Upload the web page to GitHub.
+
+## Introduction
+Now that you have your own web blog, but it currently only runs locally and cannot be accessed through a domain name. The following section will guide you on how to upload the web page to GitHub.
+
+## Simple Guide
 
 Github webpage：[GitHub](https://github.com)
 
@@ -208,7 +212,7 @@ Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1pro
 
 1. Create your repository on GitHub.
    
-   ![](../../img/webpage/repository.png)
+   <img src="../../img/webpage/repository.png" width=1920>
 
 2. Copy your repository locally on GitHub Desktop.
    
@@ -233,9 +237,14 @@ Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1pro
 
 4. Click the "Add people" button at the top right of the page, enter the GitHub username or email address of the administrator, select the role you want to give, and click "Add" button.
 
-![](../../img/webpage/team2.png)
+<img src="../../img/webpage/team2.png" width=1920>
+
 
 Your team member will receive an invitation email. They can accept the invitation by clicking the link in the email.
+
+1. My team
+
+<img src="../../img/webpage/team3.png" width=1920>
 
 ## The relationship in github for two repositories
 
