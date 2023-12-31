@@ -210,9 +210,10 @@ Github desktop webpage：[GitHub desktop](https://desktop.github.com/)
 ## Deploy your page on Github
 Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
-1. Create your repository on GitHub.
+1. Create your repository on GitHub.If you need to access someone else's repository, click on the "Open with Github Desktop" button below the "Code" button.
    
    <img src="../../img/webpage/repository.png" width=1920>
+   <img src="../../img/webpage/desk.png" width=1920>
 
 2. Copy your repository locally on GitHub Desktop.
    
