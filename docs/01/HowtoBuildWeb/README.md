@@ -125,6 +125,77 @@ Set `coverpage` to true, and create a `_coverpage.md`
 >[!TIP]
 > Don't need any other css files.
 
+## How to generate a Sidebar and a Navbar
+
+Reference：[Official document](https://docsify.js.org/#/zh-cn/more-pages?id=%e5%ae%9a%e5%88%b6%e4%be%a7%e8%be%b9%e6%a0%8f)
+
+In order to have a sidebar, you can create your own `_sidebar.md` :
+
+First, you need to set loadSidebar to true.
+```html
+   <!-- index.html -->
+
+   <script>
+   window.$docsify = {
+      loadSidebar: true
+   }
+   </script>
+   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+```
+Create the `_sidebar.md`:
+```markdown
+   <!-- docs/_sidebar.md -->
+
+   * [Home](/)
+   * [Guide](guide.md)
+
+```
+
+In order to have a navbar, you can create your own `_navbar.md` :
+
+We can configure the navigation through Markdown files. First, configure loadNavbar, and the default file to load is _navbar.md.
+
+```html
+<!-- index.html -->
+
+<script>
+  window.$docsify = {
+    loadNavbar: true
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+```
+Create the `_navbar.md`:
+
+```markdown
+<!-- _navbar.md -->
+
+* [En](/)
+
+```
+
+## Generate a right-hand sidebar
+
+Add the following code to the `index.html`
+```html
+<script>
+   window.$docsify = {
+         toc:{
+         tocMaxLevel:3,
+         target:'h1,h2,h3,h4,h5',
+         ignoreHeaders:['<!--{docsify-ignore}-->','<!--{docsify-ignore-all}-->'],
+
+         }
+      }
+</script>
+
+<script src="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></>
+
+```
+
+
 ## An example of index.html
 ```html
   <!DOCTYPE html>
@@ -215,15 +286,21 @@ Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1pro
    <img src="../../img/webpage/repository.png" width=1920>
    <img src="../../img/webpage/desk.png" width=1920>
 
-2. Copy your repository locally on GitHub Desktop.
+2. clone your repository
    
-   ![](../../img/webpage/clone%20repository.png)
+   <img src="../../img/webpage/clone.png" width=1920>
+
+3. Copy the website's folder into the local folder of the repository.
    
-   And you can change and upload the page locally.
+   <img src="../../img/webpage/copydir.png" width=1920>
+
+4. Push your local file
+   
+   You can change and upload the page to github locally.
    
    ![](../../img/webpage/githubdesk.png)
 
-3. Open your online page.
+5. Open your online page.
    
    ![](../../img/webpage/githubsettings.png)
 

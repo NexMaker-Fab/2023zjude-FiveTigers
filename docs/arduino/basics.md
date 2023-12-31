@@ -21,7 +21,7 @@ Reference：[Arduino UNO数据手册](https://blog.csdn.net/m0_37738838/article/
 
 Arduino UNO is an Arduino development board based on ATmega328P. It has 14 digital input/output pins (of which 6 can be used for PWM output), 6 analog input pins, a 16 MHz crystal oscillator, a USB interface, a DC interface, an ICSP interface, and a reset button. It contains everything needed for the microcontroller, and you can simply connect it to the computer's USB interface, or use an AC-DC adapter, or even power it with batteries.
 
-![none](../img/arduino/uno.jpg)
+<img src="../img/arduino/uno.jpg" width=1920>
 
 "Uno" means "one" in Italian. Arduino UNO is the first development board in the Arduino series, and Arduino IDE 1.0 is the first official version of the Arduino IDE. Arduino UNO hardware and Arduino IDE software establish a set of Arduino development standards, upon which subsequent Arduino boards and derivative products are built."
 
@@ -42,20 +42,34 @@ The common minimum unit breadboard consists of three parts: top, middle, and bot
 
 A DuPont wire is a commonly used cable for connecting electronic components. It is typically made up of an insulated copper wire with a plastic housing. They have a male connector on one end and a female connector on the other end, allowing for easy insertion into pins on a breadboard or other electronic components. DuPont wires are commonly used to connect signals and power lines between Arduino development boards, sensors, modules, and other electronic components.
 
-![none](../img/arduino/dubang.jpg)
+<img src="../img/arduino/dubang2.png" width=1920>
 
 ### Resistor
 
 In the Arduino platform, a resistor component is an electronic component that is used to limit the flow of electric current in a circuit. It is typically made of a cylindrical body with two leads or terminals. The resistance value of a resistor is measured in ohms (Ω) and determines the amount of current that can pass through it. Resistor components are commonly used in Arduino projects to control the voltage levels, limit current flow, and adjust signal levels. They are essential for tasks such as voltage dividers, current limiting, and pull-up or pull-down resistors.
 
+#### Color ring resistor
 
-![none](../img/arduino/resistor.jpg)
+Color ring resistor is the most commonly used electronic component in electronic circuits. It is a regular resistor with colored bands painted on it to indicate its resistance value. This ensures that the resistance value can be easily read regardless of the direction in which the resistor is installed. The basic units for color ring resistors are ohms (Ω), kilohms (KΩ), and megohms (MΩ). 1 megohm (MΩ) = 1000 kilohms (KΩ) = 1,000,000 ohms (Ω).
+
+Use the color ring resistance identification chart for identification.
+
+<img src="../img/arduino/ring.png" width=1920>
+
+#### chip resistor
+
+A chip resistor is a type of resistor made from thin film or foil, and is commonly used for precision resistors and voltage regulators in electronic circuits. They are compact in size, and offer high precision and stability, making them widely used in various electronic devices and circuits. Chip resistors can be manufactured using different materials and processes to meet various circuit requirements.
+
+<img src="../img/arduino/chip.png" width=1920>
+
+
+
 
 ### LED
 
 LED stands for Light Emitting Diode. It is a semiconductor device that emits light when an electric current passes through it. LEDs are commonly used in electronic devices, lighting fixtures, and displays. They are small, energy-efficient, and available in various colors. LEDs have become popular due to their long lifespan, low power consumption, and durability. They are widely used in Arduino projects for indicators, status lights, and visual feedback.
 
-![none](../img/arduino/led.jpg)
+<img src="../img/arduino/led2.png" width=1920>
 
 ## Arduino IDE
 
@@ -68,7 +82,7 @@ IDE (Integrated Development Environment) is equivalent to a combination of edito
 
 Download the latest version of Arduino IDE: [Arduino IDE](https://www.arduino.cc/en/software)
 
-![none](../img/arduino/downide.png)
+<img src="../img/arduino/downide.png" width=1920>
 
 ### IDE Interface
 
@@ -162,7 +176,9 @@ digitalWrite(pin,value);  //Defines the level of the pin
 
 ## Compile and upload the code
 
-![](../img/arduino/cu.png)
+<img src="../img/arduino/cu.png" width=1920>
+
+
 
 To compile and upload code in the Arduino IDE, follow these steps:
 
@@ -176,7 +192,8 @@ To compile and upload code in the Arduino IDE, follow these steps:
 
 5. Once the upload is finished, the code will start running on the Arduino board.
 
-![none](../img/arduino/water.gif)
+<img src="../img/arduino/water.gif" width=1920>
+
 
 
 # Display Screen
@@ -218,13 +235,15 @@ With its compact size and easy integration, LCD1602 is widely used in various ap
 
 ## Achievement display
 
-![none](../img/arduino/screen/lcd1.gif)
+
+<img src="../img/arduino/screen/lcd1.gif" width=1920>
 
 ## Circuit connection
 
 This project uses a 220 ohm resistor.
 
-![none](../img/arduino/screen/lcd1.png)
+
+<img src="../img/arduino/screen/lcd1.png" width=1920>
 
 ## Code display
 
@@ -251,13 +270,14 @@ lcd.print(millis()/1000);
 
 ## Achievement display
 
-![none](../img/arduino/screen/pipe.gif)
+<img src="../img/arduino/screen/pipe.gif" width=1920>
+
 
 ## Circuit connection
 
 This project uses a 220 ohm resistor.
 
-![none](../img/arduino/screen/pipe.png)
+<img src="../img/arduino/screen/pipe.png" width=1920>
 
 ## Code display
 
@@ -321,13 +341,13 @@ The servo motor consists of a small DC motor, a gear mechanism, and a control ci
 
 ## Achievement display
 
-![none](../img/arduino/screen/servo.gif)
+<img src="../img/arduino/screen/servo.gif" width=1920>
 
 ## Circuit connection
 
 This project uses a 220 ohm resistor.
 
-![none](../img/arduino/screen/servo.png)
+<img src="../img/arduino/screen/servo.png" width=1920>
 
 ## Code display
 ```c

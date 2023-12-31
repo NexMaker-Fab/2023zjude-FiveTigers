@@ -2,13 +2,14 @@
 
 ## Achievement display
 
-![none](../img/arduino/water.gif)
+<img src="../img/arduino/water.gif" width=1920>
+
 
 ## Circuit connection
 
 This project uses a 1k ohm resistor.
 
-![none](../img/arduino/water1.png)
+<img src="../img/arduino/water1.png" width=1920>
 
 ## Code display
 
