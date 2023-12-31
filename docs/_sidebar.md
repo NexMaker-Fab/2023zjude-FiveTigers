@@ -18,9 +18,10 @@
     - [IOT](arduino/IOT.md)
     - [Introduction to Open Source Projects](arduino/project.md)
 
-  - [4. CNC machine]()
+  - [4. CNC machine](CNC/Introduction.md)
+    - [Introduction](CNC/Introduction.md)
   
-  - [5. Interface application programming]()
+  - [5. Interface application programming](IAP/introduction.md)
   
   - [6. 3D printing](3D/Introduction.md)
     - [Introduction](3D/Introduction.md)

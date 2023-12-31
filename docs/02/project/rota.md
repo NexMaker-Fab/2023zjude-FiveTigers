@@ -2,5 +2,5 @@
 
 ## Connection Relationship
 
-<img src="../project/cr.png" width=1920>
+<img src="../../img/CAD/cr.png" width=1920>
 
