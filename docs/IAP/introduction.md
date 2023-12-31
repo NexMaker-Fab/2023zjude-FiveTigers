@@ -1,4 +1,6 @@
-# Interface application programming
+# Introduction
+
+[Reference](https://processing.org/reference/)
 
 ## Definition:
 - **Processing** is an open-source graphical library and integrated development environment (IDE) built for visual arts and creative coding.
@@ -9,6 +11,8 @@
 ## IDE (Integrated Development Environment):
 - Processing provides a user-friendly IDE designed for quick and intuitive development of visual applications.
 - It includes a code editor, a sketchbook, and tools for debugging and running programs.
+
+<img src="../img/IAP/ide.png" width=1080>
 
 ## Graphics Rendering:
 - The primary focus of Processing is on graphics and visual output.
