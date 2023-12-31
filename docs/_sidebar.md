@@ -9,7 +9,11 @@
     
   - [3. Arduino](arduino/basics.md)
     - [Introduction](arduino/basics.md)
+    - [LCD Screen](arduino/lcd.md)
+    - [Nixie tube](arduino/nixie.md)
+    - [Servo motor](arduino/servo.md) 
     - [Running water lamps](arduino/waterlamps.md) 
+    - [Smoke detectiton](arduino/smoke.md) 
     - [Introduction to Open Source Projects](arduino/project.md)
 
   - [4. CNC machine]()
