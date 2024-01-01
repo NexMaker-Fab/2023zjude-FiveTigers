@@ -30,7 +30,7 @@
 
 3. **调整切割起始位置**
 
-<img src="img/ccc/2%20(2).jpg" width=1920>
+<img src="img/ccc/123.png" width=1920>
 
 4. **切割过程**
 

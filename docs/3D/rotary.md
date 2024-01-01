@@ -1,7 +1,9 @@
 # Rotary Mechanism
 
-## Studio Parameter Settings
-
+<img src="img/3D/31.png" width=1080>
+<img src="img/3D/32.png" width=1080>
+<img src="img/3D/33.png" width=1080>
+<img src="img/3D/34.png" width=1080>
 
 ## Printer Parameter Settings
 <img src="img/3D/e1%20(1).png" width=1080>
