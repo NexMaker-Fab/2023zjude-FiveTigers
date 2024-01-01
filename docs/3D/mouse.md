@@ -45,4 +45,4 @@ Insert the TF card into the printer, sequentially print the two files, and obtai
 
 ## Start assembling
 
-<iframe height=720px width=1920px src="https://www.bilibili.com/video/BV1934y1A73y" >
+<iframe src="//player.bilibili.com/player.html?aid=831431514&bvid=BV1934y1A73y&cid=1280309160&p=1" height=900 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
