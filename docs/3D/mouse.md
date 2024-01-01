@@ -9,6 +9,10 @@ This 3D-printed mouse has a futuristic hollow shell design, revealing its intern
 <img src="../img/3D/m1.jpg" style="width:1920px">
 <img src="../img/3D/m2.jpg" style="width:220px">
 
+<img src="../img/3D/m2.jpg" style="width:220px">
+
+<img src="docs/img/3D/m2.jpg" width=1920>
+
 ## Preparation
 
 1. 3D printer(Bambu Lab A1 mini)
