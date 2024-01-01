@@ -27,7 +27,7 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
    
 5. Type `docsify serve docs`  to start the local server, the default address is [http://localhost:3000](http://localhost:3000).
 
-<img src="../../img/webpage/initialize.png" width=1920>
+<img src="img/webpage/initialize.png" width=1920>
 
 ## Customize the navigation bar
 1. Add the following to `index.html`.
@@ -283,16 +283,16 @@ Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1pro
 
 1. Create your repository on GitHub.If you need to access someone else's repository, click on the "Open with Github Desktop" button below the "Code" button.
    
-   <img src="../../img/webpage/repository.png" width=1920>
-   <img src="../../img/webpage/desk.png" width=1920>
+   <img src="img/webpage/repository.png" width=1920>
+   <img src="img/webpage/desk.png" width=1920>
 
 2. clone your repository
    
-   <img src="../../img/webpage/clone.png" width=1920>
+   <img src="img/webpage/clone.png" width=1920>
 
 3. Copy the website's folder into the local folder of the repository.
    
-   <img src="../../img/webpage/copydir.png" width=1920>
+   <img src="img/webpage/copydir.png" width=1920>
 
 4. Push your local file
    
@@ -315,14 +315,14 @@ Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1pro
 
 4. Click the "Add people" button at the top right of the page, enter the GitHub username or email address of the administrator, select the role you want to give, and click "Add" button.
 
-<img src="../../img/webpage/team2.png" width=1920>
+<img src="img/webpage/team2.png" width=1920>
 
 
 Your team member will receive an invitation email. They can accept the invitation by clicking the link in the email.
 
 1. My team
 
-<img src="../../img/webpage/team3.png" width=1920>
+<img src="img/webpage/team3.png" width=1920>
 
 ## The relationship in github for two repositories
 
