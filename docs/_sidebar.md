@@ -29,7 +29,9 @@
     - [3D printed mouse](3D/mouse.md)
     - [Rotary Mechanism](3D/rotary.md)
 
-  - [7. Computer-controlled cutting]()
+  - [7. Computer-controlled cutting](CCC/intro.md)
+    - [Introduction](CCC/intro.md)
+    - [project](CCC/project.md)
 
 
 - Final project
