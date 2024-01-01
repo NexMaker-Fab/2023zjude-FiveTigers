@@ -6,9 +6,8 @@ This 3D-printed mouse has a futuristic hollow shell design, revealing its intern
 
 [Documents](https://bambulab.cn/zh-cn/support/documentation)
 
-<img src="../img/3D/m1.jpg" style="width:1920px">
-<img src="img/3D/m2.jpg" style="width:220px">
-<img src="img/3D/m2.jpg" width=200>
+<img src="img/3D/m1.jpg" style="width:1920px">
+<img src="img/3D/m2.jpg" width=1920>
 
 ## Preparation
 
@@ -28,15 +27,15 @@ You need to download two files:
 1. Wireless Mouse Bottom Shell v2.0
 2. Wireless Mouse Tops Shell v2.0
 
-<img src="../img/3D/web.png" width=1920>
+<img src="img/3D/web.png" width=1920>
 
 After that,import files to Bambu studio.
 
-<img src="../img/3D/c1.png" width=1920>
+<img src="img/3D/c1.png" width=1920>
 
 Click the Slice Single Disk Button in the upper right corner
 
-<img src="../img/3D/c2.png" width=1920>
+<img src="img/3D/c2.png" width=1920>
 
 Export the G-code file and copy it to TF card.
 
@@ -46,4 +45,4 @@ Insert the TF card into the printer, sequentially print the two files, and obtai
 
 ## Start assembling
 
-<iframe height=720px width=1920px src="https://www.bilibili.com/video/BV1934y1A73y">
+<iframe height=720px width=1920px src="https://www.bilibili.com/video/BV1934y1A73y" >
