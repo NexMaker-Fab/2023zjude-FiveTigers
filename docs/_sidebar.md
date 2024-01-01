@@ -17,6 +17,7 @@
     - [Smoke detectiton](arduino/smoke.md)
     - [IOT](arduino/IOT.md)
     - [Introduction to Open Source Projects](arduino/project.md)
+    - [Introduction to Open Source Projects](arduino/project.md)
 
   - [4. CNC machine](CNC/Introduction.md)
     - [Introduction](CNC/Introduction.md)
