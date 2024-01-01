@@ -1,10 +1,10 @@
 <!-- _coverpage.md -->
 
-![logo](img/webpage/cat.jpg)
+<img src="img/logo.png" width=400>
 
 #  <small> </small>
 
-> This is a TIGER.
+> We are Five TIGERS.
 
 [GitHub](https://github.com/yousia33/MyFirstRepository)
 [Get Started](README.md)
