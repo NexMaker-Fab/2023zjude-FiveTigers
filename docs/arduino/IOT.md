@@ -16,35 +16,35 @@ vscode下载连接：[Visual Studio Code - Code Editing. Redefined](https://code
 
 在拓展页面添加Platformio IDE
 
-<img src="../arduino/_附件/1.png" width=1920>
+<img src="arduino/_附件/1.png" width=1920>
 
 建立一个项目
 
-<img src="../arduino/_附件/Pasted%20image%2020231229134315.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229134315.png" width=1920>
 
 安装完成并且重新启动VSCode以后，拓展那一栏出现外星人的图标，创建一个新的项目
 
-<img src="../arduino/_附件/Pasted%20image%2020231228223400.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231228223400.png" width=1920>
 
 等待创建，这个过程需要的比较久，耐心等待
 
-<img src="../arduino/_附件/Pasted%20image%2020231228223837.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231228223837.png" width=1920>
 
 打开创建好的文件夹
 
-<img src="../arduino/_附件/Pasted%20image%2020231229133826.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229133826.png" width=1920>
 
 按键的作用
 
-<img src="../arduino/_附件/Pasted%20image%2020231229135004.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229135004.png" width=1920>
 
 改变代码
 
-<img src="../arduino/_附件/Pasted%20image%2020231229135939.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229135939.png" width=1920>
 
 实物接线
 
-<img src="../arduino/_附件/Pasted%20image%2020231229141003.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229141003.png" width=1920>
 
 编译
 ```c++
@@ -72,7 +72,7 @@ void loop() {
 
 控制LED闪烁
 
-<video src="../arduino/_附件/72f95c73d5fde03bb1683e93cd36ceb7.mp4" width="1320px" height="780px" controls="controls"></video>
+<video src="arduino/_附件/72f95c73d5fde03bb1683e93cd36ceb7.mp4" width="1320px" height="780px" controls="controls"></video>
 
 
 ## 将ESP32与Aliyun-IOT连接起来;
@@ -85,11 +85,11 @@ void loop() {
 
 进入管理后台
 
-<img src="../arduino/_附件/Pasted%20image%2020231229143549.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229143549.png" width=1920>
 
 填写完成表单信息并提交
 
-<img src="../arduino/_附件/Pasted%20image%2020231229143809.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229143809.png" width=1920>
 
 新建项目
 
@@ -139,7 +139,7 @@ void loop() {
 
 获取阿里云的设备信息(Product key,Device name,Device secrect)
 
-<img src="../arduino/_附件/Pasted%20image%2020231229153956.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231229153956.png" width=1920>
 
 
 将上述信息复制到main.cpp开头位置，REGION_ID根据所选区域调整，在本案例中为上海区：cn-shanghai
@@ -157,7 +157,7 @@ void loop() {
 
 点击进入公共实例
 
-<img src="../arduino/_附件/Pasted%20image%2020231230140315.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231230140315.png" width=1920>
 
 查看所创建的实例
 
@@ -189,7 +189,7 @@ PIO找到PubSubClient.h库文件
 
 硬件实物连接图：
 
-<img src="../arduino/_附件/Pasted%20image%2020231230184718.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231230184718.png" width=1920>
 
 完整的代码：
 ```C++
@@ -322,10 +322,10 @@ VOFA串口显示器[VOFA-Plus上位机 | VOFA-Plus上位机](https://www.vofa.pl
 
 修改前：
 
-<img src="../arduino/_附件/23.png" width=1920>
+<img src="arduino/_附件/23.png" width=1920>
 
 修改后：
-<img src="../arduino/_附件/Pasted%20image%2020231230183013.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231230183013.png" width=1920>
 
 
 报错解决
@@ -347,9 +347,9 @@ VOFA串口显示器[VOFA-Plus上位机 | VOFA-Plus上位机](https://www.vofa.pl
 
 接收到实时数据
 
-<img src="../arduino/_附件/Pasted%20image%2020231230184558.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231230184558.png" width=1920>
 
-<video src="../arduino/_附件/1.mp4" width="1320px" height="780px" controls="controls"></video>
+<video src="arduino/_附件/1.mp4" width="1320px" height="780px" controls="controls"></video>
 
 在人机交互界面下载app，并在手机上完成注册
 
@@ -362,7 +362,7 @@ VOFA串口显示器[VOFA-Plus上位机 | VOFA-Plus上位机](https://www.vofa.pl
 
 实物搭建
 
-<img src="../arduino/_附件/Pasted%20image%2020231231042409.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231231042409.png" width=1920>
 
 创建LED自定义功能
 
@@ -374,7 +374,7 @@ VOFA串口显示器[VOFA-Plus上位机 | VOFA-Plus上位机](https://www.vofa.pl
 
 选中新面板
 
-<img src="../arduino/_附件/Pasted%20image%2020231231013739.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231231013739.png" width=1920>
 
 
 添加ArduinoJson库
@@ -382,7 +382,7 @@ VOFA串口显示器[VOFA-Plus上位机 | VOFA-Plus上位机](https://www.vofa.pl
 ```
 #include <ArduinoJson.h>
 ```
-<img src="../arduino/_附件/Graphein_2023-12-31_01-50-01.png" width=1920>
+<img src="arduino/_附件/Graphein_2023-12-31_01-50-01.png" width=1920>
 
 进入查看调试
 
@@ -427,21 +427,21 @@ if(doc["params"].containsKey("deng"))
 ```
 创建网页
 
-<img src="../arduino/_附件/Pasted%20image%2020231231032750.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231231032750.png" width=1920>
 
 
 在其中添加一个设备
 
-<img src="../arduino/_附件/Pasted%20image%2020231231032945.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231231032945.png" width=1920>
 
 
 编辑草稿
 
-<img src="../arduino/_附件/Pasted%20image%2020231231033054.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231231033054.png" width=1920>
 
 添加自定义功能，与此前添加的内容相同
 
-<img src="../arduino/_附件/Pasted%20image%2020231231033630.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231231033630.png" width=1920>
 
 发布
 
@@ -452,11 +452,11 @@ if(doc["params"].containsKey("deng"))
 
 设置灯光状态
 
-<img src="../arduino/_附件/Pasted%20image%2020231231040620.png" width=1920>
+<img src="arduino/_附件/Pasted%20image%2020231231040620.png" width=1920>
 
 视频
 
-<video src="../arduino/_附件/123.mp4" width="1320px" height="780px" controls="controls"></video>
+<video src="arduino/_附件/123.mp4" width="1320px" height="780px" controls="controls"></video>
 
 
 

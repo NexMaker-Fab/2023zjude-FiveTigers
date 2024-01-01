@@ -36,14 +36,14 @@ With its compact size and easy integration, LCD1602 is widely used in various ap
 ## Achievement display
 
 
-<img src="../img/arduino/screen/lcd1.gif" width=1920>
+<img src="img/arduino/screen/lcd1.gif" width=1920>
 
 ## Circuit connection
 
 This project uses a 220 ohm resistor.
 
 
-<img src="../img/arduino/screen/lcd1.png" width=1920>
+<img src="img/arduino/screen/lcd1.png" width=1920>
 
 ## Code display
 

@@ -21,7 +21,7 @@ Reference：[Arduino UNO数据手册](https://blog.csdn.net/m0_37738838/article/
 
 Arduino UNO is an Arduino development board based on ATmega328P. It has 14 digital input/output pins (of which 6 can be used for PWM output), 6 analog input pins, a 16 MHz crystal oscillator, a USB interface, a DC interface, an ICSP interface, and a reset button. It contains everything needed for the microcontroller, and you can simply connect it to the computer's USB interface, or use an AC-DC adapter, or even power it with batteries.
 
-<img src="../img/arduino/uno.jpg" width=1920>
+<img src="img/arduino/uno.jpg" width=1920>
 
 "Uno" means "one" in Italian. Arduino UNO is the first development board in the Arduino series, and Arduino IDE 1.0 is the first official version of the Arduino IDE. Arduino UNO hardware and Arduino IDE software establish a set of Arduino development standards, upon which subsequent Arduino boards and derivative products are built."
 
@@ -42,7 +42,7 @@ The common minimum unit breadboard consists of three parts: top, middle, and bot
 
 A DuPont wire is a commonly used cable for connecting electronic components. It is typically made up of an insulated copper wire with a plastic housing. They have a male connector on one end and a female connector on the other end, allowing for easy insertion into pins on a breadboard or other electronic components. DuPont wires are commonly used to connect signals and power lines between Arduino development boards, sensors, modules, and other electronic components.
 
-<img src="../img/arduino/dubang2.png" width=1920>
+<img src="img/arduino/dubang2.png" width=1920>
 
 ### Resistor
 
@@ -54,13 +54,13 @@ Color ring resistor is the most commonly used electronic component in electronic
 
 Use the color ring resistance identification chart for identification.
 
-<img src="../img/arduino/ring.png" width=1920>
+<img src="img/arduino/ring.png" width=1920>
 
 #### chip resistor
 
 A chip resistor is a type of resistor made from thin film or foil, and is commonly used for precision resistors and voltage regulators in electronic circuits. They are compact in size, and offer high precision and stability, making them widely used in various electronic devices and circuits. Chip resistors can be manufactured using different materials and processes to meet various circuit requirements.
 
-<img src="../img/arduino/chip.png" width=1920>
+<img src="img/arduino/chip.png" width=1920>
 
 
 
@@ -69,7 +69,7 @@ A chip resistor is a type of resistor made from thin film or foil, and is common
 
 LED stands for Light Emitting Diode. It is a semiconductor device that emits light when an electric current passes through it. LEDs are commonly used in electronic devices, lighting fixtures, and displays. They are small, energy-efficient, and available in various colors. LEDs have become popular due to their long lifespan, low power consumption, and durability. They are widely used in Arduino projects for indicators, status lights, and visual feedback.
 
-<img src="../img/arduino/led2.png" width=1920>
+<img src="img/arduino/led2.png" width=1920>
 
 ## Arduino IDE
 
@@ -82,7 +82,7 @@ IDE (Integrated Development Environment) is equivalent to a combination of edito
 
 Download the latest version of Arduino IDE: [Arduino IDE](https://www.arduino.cc/en/software)
 
-<img src="../img/arduino/downide.png" width=1920>
+<img src="img/arduino/downide.png" width=1920>
 
 ### IDE Interface
 
@@ -176,7 +176,7 @@ digitalWrite(pin,value);  //Defines the level of the pin
 
 ## Compile and upload the code
 
-<img src="../img/arduino/cu.png" width=1920>
+<img src="img/arduino/cu.png" width=1920>
 
 
 
@@ -192,6 +192,6 @@ To compile and upload code in the Arduino IDE, follow these steps:
 
 5. Once the upload is finished, the code will start running on the Arduino board.
 
-<img src="../img/arduino/water.gif" width=1920>
+<img src="img/arduino/water.gif" width=1920>
 
 

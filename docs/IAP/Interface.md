@@ -62,11 +62,11 @@ void draw() {
 
 ## Display
 
-<video src="../img/IAP/dis.mp4" width="1080px" height="500px" controls="controls"></video>
+<video src="img/IAP/dis.mp4" width="1080px" height="500px" controls="controls"></video>
 
 ## Wiring Method
 
-<img src="../img/IAP/wire1.png" width=1080>
+<img src="img/IAP/wire1.png" width=1080>
 
 ## Code
 

@@ -5,13 +5,13 @@ The servo motor consists of a small DC motor, a gear mechanism, and a control ci
 
 ## Achievement display
 
-<img src="../img/arduino/screen/servo.gif" width=1920>
+<img src="img/arduino/screen/servo.gif" width=1920>
 
 ## Circuit connection
 
 This project uses a 220 ohm resistor.
 
-<img src="../img/arduino/screen/servo.png" width=1920>
+<img src="img/arduino/screen/servo.png" width=1920>
 
 ## Code display
 ```c

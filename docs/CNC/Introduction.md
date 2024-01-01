@@ -38,7 +38,7 @@
     eg：Haas铣床操作手册：[https://www.haascnc.com/zh/service/online-operator-s-manuals/mill-operator-s-manual/mill---introduction.html](https://www.haascnc.com/zh/service/online-operator-s-manuals/mill-operator-s-manual/mill---introduction.html)
     
 
-    <img src="../CNC/CNC%20c325de0e5d63448dac37784d65563568/Untitled.png" width=720>
+    <img src="CNC/CNC%20c325de0e5d63448dac37784d65563568/Untitled.png" width=720>
     
     3. **穿戴适当的工作服**：穿上工作服和安全眼镜，戴上耳塞（如果需要的话），确保没有松散的衣物或饰品。
     4. **检查机床**：在开机之前，检查机床各部是否完好，确认没有任何障碍物或碎片在机床或工作区域内。
@@ -61,12 +61,12 @@
 1. **数控铣床（CNC Milling Machines）**：
     - 这些机床能够在多个轴上进行操作，通常是3轴到5轴。它们可以进行钻孔、切割和形状加工等多种操作。
     
-  <img src="../CNC/CNC%20c325de0e5d63448dac37784d65563568/Untitled%201.png" width=720>
+  <img src="CNC/CNC%20c325de0e5d63448dac37784d65563568/Untitled%201.png" width=720>
     
 
 **工作原理图：**
 
-  <img src="../CNC/CNC%20c325de0e5d63448dac37784d65563568/Untitled%202.png" width=900>
+  <img src="CNC/CNC%20c325de0e5d63448dac37784d65563568/Untitled%202.png" width=900>
 
 **数控铣床的主要功能：**
 

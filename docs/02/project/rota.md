@@ -27,7 +27,7 @@ Fusion 360 是由 Autodesk 开发的 3D CAD、CAM 和 CAE 工具。与 SolidWork
 
 调整快捷方式为soildworks,默认动态观察类型为受约束的动态观察，勾选反转缩放方式。这样操作起来更加顺手。
 
-<img src="../img/../02/project/_附件/1.png" width=1920>
+<img src="02/project/_附件/1.png" width=1920>
 
 ## 建模
 
@@ -52,11 +52,11 @@ Fusion 360 是由 Autodesk 开发的 3D CAD、CAM 和 CAE 工具。与 SolidWork
 
 另一种动态关系约束，小长方形能够随着大长方形的尺寸改变而改变。
 
-<img src="../img/../02/project/_附件/Pasted%20image%2020240101104626.png" width=1920>
+<img src="02/project/_附件/Pasted%20image%2020240101104626.png" width=1920>
 
 找到需要调整的参数，双击重命名进行修改，更加醒目
 
-<img src="../img/../02/project/_附件/Pasted%20image%2020240101104835.png" width=1920>
+<img src="02/project/_附件/Pasted%20image%2020240101104835.png" width=1920>
 
 建立联动表达式关系
 
@@ -108,7 +108,7 @@ Repeat the steps above to obtain the following shape
 
 连接位置生成式设计
 
-<video src="../img/../02/project/_附件/11.mp4" width="1080px" height="500px" controls="controls"></video>
+<video src="02/project/_附件/11.mp4" width="1080px" height="500px" controls="controls"></video>
 
 生成式结构
 
@@ -120,7 +120,7 @@ Repeat the steps above to obtain the following shape
 
 固定杆生成式设计
 
-<video src="../img/../02/project/_附件/自动化建模2.mp4" width="1080px" height="500px" controls="controls"></video>
+<video src="02/project/_附件/自动化建模2.mp4" width="1080px" height="500px" controls="controls"></video>
 
 造型搭建完成
 
@@ -186,15 +186,15 @@ Repeat the steps above to obtain the following shape
 
 从实体创建零部件
 
-<img src="../img/../02/project/_附件/Pasted%20image%2020240101151617.png" width=1920>
+<img src="02/project/_附件/Pasted%20image%2020240101151617.png" width=1920>
 
 将零部件命名好对应的名称
 
-<img src="../img/../02/project/_附件/Pasted%20image%2020240101151705.png" width=1920>
+<img src="02/project/_附件/Pasted%20image%2020240101151705.png" width=1920>
 
 将需要固定的零件选择固定进行固定
 
-<img src="../img/../02/project/_附件/Pasted%20image%2020240101151705.png" width=1920>
+<img src="02/project/_附件/Pasted%20image%2020240101151705.png" width=1920>
 
 
 将需要固定的零件进行固定
@@ -215,7 +215,7 @@ Repeat the steps above to obtain the following shape
 
 旋转效果演示
 
-<video src="../img/../02/project/_附件/1月1日.mp4" width="1080px" height="500px" controls="controls"></video>
+<video src="02/project/_附件/1月1日.mp4" width="1080px" height="500px" controls="controls"></video>
 
 ## Engineering Drawings
 
@@ -233,11 +233,11 @@ Repeat the steps above to obtain the following shape
 
 选择对应的相关参数
 
-<img src="../img/../02/project/_附件/Pasted%20image%2020240101162312.png" width=1920>
+<img src="02/project/_附件/Pasted%20image%2020240101162312.png" width=1920>
 
 在创建-基础视图中, select the proper orientation and style.
 
-<img src="../img/../02/project/_附件/Pasted%20image%2020240101162526.png)" width=1920>
+<img src="02/project/_附件/Pasted%20image%2020240101162526.png)" width=1920>
 
 保持缩放比例尺，旋转找到合适的位置
 
