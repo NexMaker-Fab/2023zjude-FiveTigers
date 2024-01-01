@@ -6,8 +6,8 @@ This 3D-printed mouse has a futuristic hollow shell design, revealing its intern
 
 [Documents](https://bambulab.cn/zh-cn/support/documentation)
 
-<img src="../img/3D/m1.jpg" style="width=1920">
-<img src="../img/3D/m2.jpg" style="width=1920">
+<img src="../img/3D/m1.jpg" style="width:1920px">
+<img src="../img/3D/m2.jpg" style="width:1920px">
 
 ## Preparation
 
