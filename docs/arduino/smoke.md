@@ -17,17 +17,17 @@ The MQ-2 can detect the flammable gas of the lighter, and the LED light flashes 
 ## Introduction
 MQ-2 is commonly used for gas leakage monitoring in homes and factories, suitable for detecting liquefied gas, benzene, propane, alcohol, hydrogen, smoke, and other gases. Therefore, MQ-2 can accurately be described as a multi-gas detector. MQ-2 has an extremely wide detection range. Its advantages include high sensitivity, fast response, good stability, long life, and a simple drive circuit.
 
-<img src="img/arduino/smoke/sam.png" width=1920>
+<img src="img/arduino/smoke/sam.png" width=1080>
 
-Schematic diagram of wiring
-<img src="img/arduino/smoke/test.png" width=1920>
+<!--Schematic diagram of wiring
+<img src="img/arduino/smoke/test.png" width=1080>-->
 
 ## Circuit connection
 
 Here, LED RGB is used instead of the smoke sensor
-<img src="img/arduino/smoke/link.png" width=1920>
+<img src="img/arduino/smoke/link.png" width=1080>
 
-<img src="img/arduino/smoke/img.jpg" width=1920>
+<img src="img/arduino/smoke/img.jpg" width=1080>
 
 This project uses a 1k ohm resistor.
 

@@ -31,7 +31,7 @@
 
   - [7. Computer-controlled cutting](CCC/intro.md)
     - [Introduction](CCC/intro.md)
-    - [project](CCC/project.md)
+    - [Case](CCC/project.md)
 
 
 - Final project

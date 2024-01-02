@@ -9,7 +9,7 @@
 
 This project uses a 1k ohm resistor.
 
-<img src="img/arduino/water1.png" width=1920>
+<img src="img/arduino/water2.png" width=1920>
 
 ## Code display
 

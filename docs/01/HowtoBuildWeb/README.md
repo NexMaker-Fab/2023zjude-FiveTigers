@@ -85,6 +85,25 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
     </script>
    ``` 
 
+### change your logo
+
+If you want to change the logo on the cover, just change the path of the image in `_coverpage` file.
+
+Code in coverpage:
+```markdown
+
+   <img src="img/logo.png" width=400>
+
+   #  <small> </small>
+
+   > We are Five TIGERS.
+
+   [GitHub](https://github.com/yousia33/MyFirstRepository)
+   [Get Started](README.md)
+
+
+```
+
 ## How to design a coverpage
 
 Reference：[Official document](https://docsify.js.org/#/cover)

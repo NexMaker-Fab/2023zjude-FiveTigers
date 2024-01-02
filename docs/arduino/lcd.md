@@ -50,7 +50,7 @@ This project uses a 220 ohm resistor.
 ```c
 #include <LiquidCrystal.h>
 
-LiquidCrystal lcd(12,11,,5,4,3,2);
+LiquidCrystal lcd(12,11,5,4,3,2);
 
 void setup() {
   // put your setup code here, to run once:
