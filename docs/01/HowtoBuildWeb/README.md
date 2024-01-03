@@ -29,28 +29,111 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
 
 <img src="img/webpage/initialize.png" width=1920>
 
-## Customize the navigation bar
-1. Add the following to `index.html`.
-   ```html
-   <script>
-    window.$docsify = {
-      loadNavbar: true,
-      loadSidebar: true,
-      subMaxLevel: 2,
-    }
-    </script>
-   ```
-  
-2. Create `_navbar.md` and `_sidebar.md` files. Customize the sidebar and navigation bar in files. The case is as follows.
-   ```markdown
-   - Daily homework
-    - [1. Introduction]()
-        - [How to build a page]()
-    - [2. arduino basic]()
-    - [3. CAD]()
-    - [4. 3D printing]()
-   ```
+## How to generate a Sidebar and a Navbar
 
+Reference：[Official document](https://docsify.js.org/#/zh-cn/more-pages?id=%e5%ae%9a%e5%88%b6%e4%be%a7%e8%be%b9%e6%a0%8f)
+
+In order to have a sidebar and Navbar, you can create your own `_sidebar.md` and `_navbar.md`:
+
+First, you need to set loadSidebar to true.
+```html
+   <!-- index.html -->
+
+   <script>
+   window.$docsify = {
+      loadSidebar: true, //prepare for sidebar-
+      loadNavbar: true,   //prepare for navbar-
+      subMaxLevel: 1,
+   }
+   </script>
+   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+```
+Create the `_sidebar.md`:
+
+```markdown
+   <!-- 侧边栏 docs/_sidebar.md -->
+
+- Daily homework
+  - [1. Introduction](README.md)
+    - [How to build a page](01/HowtoBuildWeb/README.md)
+    - [Introduce finial project](01/FinalproductIntro/README.md)
+  - [2. CAD](02/project/rota.md)
+    - [Rotary Mechanism](02/project/rota.md)
+    - [Printer Model](02/Fusion%20360%E7%BD%91%E9%A1%B5%204d7a8c51c08f496985518b19499e2b2b.md)
+    
+  - [3. Arduino](arduino/basics.md)
+    - [Introduction](arduino/basics.md)
+    - [LCD Screen](arduino/lcd.md)
+    - [Nixie tube](arduino/nixie.md)
+    - [Servo motor](arduino/servo.md) 
+    - [Running water lamps](arduino/waterlamps.md) 
+    - [Smoke detectiton](arduino/smoke.md)
+    - [IOT](arduino/IOT.md)
+    - [Introduction to Open Source Projects](arduino/project.md)
+
+  - [4. CNC machine](CNC/Introduction.md)
+    - [Introduction](CNC/Introduction.md)
+  
+  - [5. Interface application programming](IAP/introduction.md)
+    - [Interface](IAP/Interface.md)
+    - [Case](IAP/firework.md)
+    - [Nodebox](IAP/nodebox.md)
+  
+  - [6. 3D printing](3D/Introduction.md)
+    - [Introduction](3D/Introduction.md)
+    - [Rotary Mechanism](3D/rotary.md)
+    - [3D printed mouse](3D/mouse.md)
+    
+
+  - [7. Computer-controlled cutting](CCC/intro.md)
+    - [Introduction](CCC/intro.md)
+    - [Case](CCC/project.md)
+
+
+- 8. [Final project](README.md)
+
+```
+
+In order to have a navbar, you can create your own `_navbar.md` :
+
+Create the `_navbar.md`:
+
+```markdown
+* [Introduce](README.md)
+  * [How to build a page](01/HowtoBuildWeb/README.md)
+  * [Introduce finial project](01/FinalproductIntro/README.md)
+* [CAD](02/Fusion%20360%E7%BD%91%E9%A1%B5%204d7a8c51c08f496985518b19499e2b2b.md)
+* [Arduino basics](arduino/basics.md)
+* [3D printing](3D/Introduction.md)
+* [Interface application programming](IAP/introduction.md)
+* [Computer numerical control](CNC/Introduction.md)
+* [Computer-controlled cutting](CCC/intro.md)
+* [Final project]()
+
+```
+
+## Generate a right-hand sidebar
+
+Add the following code to the `index.html`
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
+
+<script>
+   window.$docsify = {
+         toc:{
+         tocMaxLevel:3,
+         target:'h1,h2,h3,h4,h5',
+         ignoreHeaders:['<!--{docsify-ignore}-->','<!--{docsify-ignore-all}-->'],
+
+         }
+      }
+</script>
+
+<script src="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></>
+
+```
 
 ## Add a cover
 
@@ -85,11 +168,12 @@ Reference：[3.2 Docsify method](https://www.nexmaker.com/doc/1projectmanage/git
     </script>
    ``` 
 
-### change your logo
+### Change your logo
 
 If you want to change the logo on the cover, just change the path of the image in `_coverpage` file.
 
 Code in coverpage:
+
 ```markdown
 
    <img src="img/logo.png" width=400>
@@ -103,31 +187,6 @@ Code in coverpage:
 
 
 ```
-
-## How to design a coverpage
-
-Reference：[Official document](https://docsify.js.org/#/cover)
-
-Set `coverpage` to true, and create a `_coverpage.md`
-
-
- ```
- <!-- _coverpage.md -->
-
-![logo](_media/icon.svg)
-
-# docsify <small>3.5</small>
-
-> A magical documentation site generator.
-
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
-
- ```
 
 ## Change the page theme
 1. The following themes are officially available.
@@ -144,111 +203,160 @@ Set `coverpage` to true, and create a `_coverpage.md`
 >[!TIP]
 > Don't need any other css files.
 
-## How to generate a Sidebar and a Navbar
-
-Reference：[Official document](https://docsify.js.org/#/zh-cn/more-pages?id=%e5%ae%9a%e5%88%b6%e4%be%a7%e8%be%b9%e6%a0%8f)
-
-In order to have a sidebar, you can create your own `_sidebar.md` :
-
-First, you need to set loadSidebar to true.
-```html
-   <!-- index.html -->
-
-   <script>
-   window.$docsify = {
-      loadSidebar: true
-   }
-   </script>
-   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
-```
-Create the `_sidebar.md`:
-```markdown
-   <!-- docs/_sidebar.md -->
-
-   * [Home](/)
-   * [Guide](guide.md)
-
-```
-
-In order to have a navbar, you can create your own `_navbar.md` :
-
-We can configure the navigation through Markdown files. First, configure loadNavbar, and the default file to load is _navbar.md.
-
-```html
-<!-- index.html -->
-
-<script>
-  window.$docsify = {
-    loadNavbar: true
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
-```
-Create the `_navbar.md`:
-
-```markdown
-<!-- _navbar.md -->
-
-* [En](/)
-
-```
-
-## Generate a right-hand sidebar
-
-Add the following code to the `index.html`
-```html
-<script>
-   window.$docsify = {
-         toc:{
-         tocMaxLevel:3,
-         target:'h1,h2,h3,h4,h5',
-         ignoreHeaders:['<!--{docsify-ignore}-->','<!--{docsify-ignore-all}-->'],
-
-         }
-      }
-</script>
-
-<script src="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></>
-
-```
 
 
-## An example of index.html
+
+## The index.html of this site
+
+Among them, vue.css is the theme.
+light.css is the theme of the right-hand sidebar.
+
 ```html
   <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> //暗色调主题 
-    
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> 
+  <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        name: '',
-        repo: '',
-        loadSidebar: true, //prepare for sidebar
-        loadNavbar: true,   //prepare for navbar
-        subMaxLevel: 2,
-        coverpage:true,
-        onlyCover:true,
-        
+  <style>
+    
+    :root {
+      --theme-color: rgb(255, 60, 0);
+     }
+    body{
+      background: #e8e8e8;
+    }
+    .sidebar{
+      background: rgb(240, 240, 240);
+      color:gray;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .center {
+      text-align: center;
+    }
+    .sidebar-toggle{
+      margin:0px 6px;
+      background: rgb(240, 240, 240);
+    }
+    .app-sub-sidebar{
+      color:green;
+    }
+    .cover{
+      background: linear-gradient(to left bottom, hsl(0, 100%, 50%) 0%,hsl(0, 0%, 100%) 100%);
+    }
+    ::-webkit-scrollbar {
+      display: none; /* Chrome Safari */
+    }
+    .page_toc div.active {
+      border-left-color: var(--sidebar-nav-link-color--active, #ff3c00);
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+
+      logo: '/img/icon.svg',
+      name: '',
+      repo: 'docsifyjs/docsify',
+      loadSidebar: true, //prepare for sidebar-
+      loadNavbar: true,   //prepare for navbar-
+      subMaxLevel: 1,
+      coverpage:true,
+      onlyCover:true,
+      auto2top: true,
+      
+      count:{
+      countable:true,
+      fontsize:'0.9em',
+      color:'rgb(90,90,90)',
+      language:'english',
+      isExpected:false,
+      position:'bottom'
+      },
+
+      fontssize:'0.4em',
+      color:'rgb(90,90,90)',
+      language:'english',
+
+      progress: {
+        position:"top",
+        color:"var(--theme-color,#ff3c00)",
+        height:"3px",
+      },
+
+      'flexible-alerts':{
+        style:'callout'
+      },
+
+      search: {
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No results',
+        depth: 6,
+        namespace: 'website-1',
+      },
+
+      tabs:{
+        persist:true,
+        sync:true,
+        theme:'classic',
+        tabComments:true,
+        tabHeadings:true,
+      },
+
+      toc:{
+        tocMaxLevel:3,
+        target:'h1,h2,h3,h4,h5',
+        ignoreHeaders:['<!--{docsify-ignore}-->','<!--{docsify-ignore-all}-->'],
+
       }
-    </script>
-    <!-- Docsify v4 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
-    
-  </body>
-  </html>
+      
+      
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- 字数统计 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+
+  <!--tabs-->>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+  <!-- alerts -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+
+  <!-- 进度条美化 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+
+  <!-- emoji -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+  <!-- back2top -->
+  <script src="js/back2Top.js"></script>
+
+  <!-- 右侧导航 -->
+  <script src="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
+</body>
+</html>
+
 ```
 
 <!--## The relaton ship for all folders and files
@@ -267,79 +375,43 @@ Github webpage：[GitHub](https://github.com)
 
 Github desktop webpage：[GitHub desktop](https://desktop.github.com/)
 
-1. **Install Github Desktop**
+**Install Github Desktop**
    
    If you don't already have Github installed on your computer, you can download and install it from the official website.
-2. **Create a GitHub Account**
+
+**Create a GitHub Account**
    
    If you don't have a GitHub account, you'll need to create one. Visit GitHub and sign up.
-3. **Set Up Your GitHub Repository**
+
+**Clone teacher's GitHub Repository**
    
-   Click the "+" sign in the upper right corner of your GitHub account and select "New repository."
-   Follow the instructions to set up your repository.
+   Clone teacher's repository.
+   Click code button,click "Open with Github Desktop".
 
-4. **Some thing you should know before using Github Desktop**
-   
-   Git itself only has a console version, which is difficult to use. GitHub Desktop (hereinafter referred to as Desktop) is a graphical version of Git that solves the above problems:
-   1. After the project is updated locally, you can synchronize to the code repository with one click, or you can synchronize the code repository to the local with one click.
-   
-   2. Past versions of the file are saved, so you can undo your own or even someone else's changes, mitigating the impact of errors.
-   
-   3. After modifying local files, the local automatically detects which files have been modified.
-   
-5. **How to allow collaborators to modify your repository**
-   You need to invite people first. Click `Settings/Collaborators`, enter the collaborator's nickname, click `Add Collaborators`, and he will be invited. Once he accepts it on GitHub Web, he will have permission to modify your repository.
+<img src="img/webpage/desk.png" width=1920>
 
-   ![](../../img/webpage/co1.png)
-   ![](../../img/webpage/co2.png)
+Open it with Github Desktop and download it to your local computer.
 
-6. **How to clone,pull,push your project**
-   
-  Reference：[GitHub Desktop代替git指令实现GitHub仓库push/pull/clone等操作](https://blog.csdn.net/gzn00417/article/details/104281308)
-
-7. **Push your website to teacher's repository**
-   
-To push code to someone else's repository on GitHub, you will need to have write access to that repository. Typically, you would need to send a pull request to the repository owner and, once it's accepted, you will be granted push access.
-
-
-
-<img src="img/webpage/re.png" width=1920>
-
-You just need open it with Github Desktop and download it to your local computer.
-
-<img src="img/webpage/t1.png" width=1920>
-
-Clone teacher's repository.
+In this picture,The name of the teacher's repository has been replaced with "injetlee/Python", which is an example, because the teacher's repository has been clone to the local area, and clone cannot be repeated
 
 <img src="img/webpage/t2.png" width=1920>
 
-copy your website files to the current folder, then you can push your website to Github.If you are an administrator, you can push directly to the repository without the need for fork and pull requests. Administrators have the permission to directly modify and commit to the repository.
-
-## Deploy your page on Github
-Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
-
-1. Create your repository on GitHub.If you need to access someone else's repository, click on the "Open with Github Desktop" button below the "Code" button.
+**Push your website to teacher's repository**
    
-   <img src="img/webpage/repository.png" width=1920>
-   <img src="img/webpage/desk.png" width=1920>
+To push code to someone else's repository on GitHub, you will need to have write access to that repository. Typically, you would need to send a pull request to the repository owner and, once it's accepted, you will be granted push access.
 
-2. clone your repository
-   
-   <img src="img/webpage/clone.png" width=1920>
+Open repository with vscode for editting.
 
-3. Copy the website's folder into the local folder of the repository.
-   
-   <img src="img/webpage/copydir.png" width=1920>
+<img src="img/webpage/t2.png" width=1920>
 
-4. Push your local file
-   
-   You can change and upload the page to github locally.
+Copy your website file to local repository and push.
+You can change and upload the page to github locally.
    
    ![](../../img/webpage/githubdesk.png)
 
-5. Open your online page.
+Open your online page. Check your work.
    
-   ![](../../img/webpage/githubsettings.png)
+   ![](../../img/webpage/ff1.png)
 
 ## How to work as a team
 1. Log in to your GitHub account and go to the repository where you want to set an administrator.

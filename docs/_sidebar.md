@@ -37,10 +37,5 @@
     - [Case](CCC/project.md)
 
 
-- Final project
-  - topic
-  - innovation
-  - market
-  - how to design 
-  - how to make
-  - SDGs
+- 8. [Final project](README.md)
+ 

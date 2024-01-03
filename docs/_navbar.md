@@ -4,4 +4,7 @@
 * [CAD](02/Fusion%20360%E7%BD%91%E9%A1%B5%204d7a8c51c08f496985518b19499e2b2b.md)
 * [Arduino basics](arduino/basics.md)
 * [3D printing](3D/Introduction.md)
+* [Interface application programming](IAP/introduction.md)
+* [Computer numerical control](CNC/Introduction.md)
+* [Computer-controlled cutting](CCC/intro.md)
 * [Final project]()
