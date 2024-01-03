@@ -7,19 +7,42 @@ To connect the interface application programming in processing. Interface applic
 ### Arduino Side:
 
 ```c
-void setup() {
-  Serial.begin(9600); // Initialize serial communication with a baud rate of 9600
+int redPin = 3;
+int greenPin = 4;
+int bluePin = 5;
+
+int c = 0;
+
+void setup()
+{
+  Serial.begin(9600);  
+  pinMode(redPin,OUTPUT);
+  pinMode(greenPin,OUTPUT);
+  pinMode(bluePin,OUTPUT);
 }
 
-void loop() {
-  // Read sensor data or perform other tasks
-  int sensorValue = analogRead(A0);
-
-  // Send data to the computer
-  Serial.print("Sensor Value: ");
-  Serial.println(sensorValue);
-
-  delay(1000); // Delay for 1 second to avoid too frequent data transmission
+void loop()
+{
+  if(Serial.available());
+  c = Serial.read();
+  if (c == 97)  //a in ASCII is 97
+  {
+    digitalWrite(redPin,HIGH);   
+    delay(500);
+    digitalWrite(redPin,LOW); 
+  }
+  if (c == 98)  //b in ASCII is 98
+  {
+    digitalWrite(greenPin,HIGH);   
+    delay(500);
+    digitalWrite(greenPin,LOW);    
+  }
+  if (c == 99)  
+  {
+    digitalWrite(bluePin,HIGH);   
+    delay(500);
+    digitalWrite(bluePin,LOW);
+  }
 }
 ```
 
@@ -27,28 +50,39 @@ void loop() {
 
 ```java
 import processing.serial.*;
+Serial port;
 
-Serial myPort;  // Create a Serial object
-
-void setup() {
-  // Set window size, etc.
-  size(400, 300);
-
-  // Display all available serial ports
-  printArray(Serial.list());
-
-  // Choose the serial port connected to Arduino, replace with your port name
-  String portName = Serial.list()[0];
-  myPort = new Serial(this, portName, 9600); // Use a baud rate of 9600
+void setup(){
+  port=new Serial(this,"COM5",9600); //Arduino's com
+  size(600,200);
 }
 
-void draw() {
-  while (myPort.available() > 0) {
-    // Read data sent by Arduino
-    String data = myPort.readStringUntil('\n');
-    if (data != null) {
-      println(data);
-    }
+void draw(){
+  fill(255,0,0);
+  rect(50,50,100,100);
+
+  fill(0,255,0);
+  rect(250,50,100,100);
+
+  fill(0,0,255);
+  rect(450,50,100,100);  
+}
+
+void mouseClicked(){
+  if((mouseX>=50)&(mouseX<=150)&(mouseY>=50)&(mouseY<=150))
+  {
+    println("red");
+    port.write("a");
+  }
+  else if((mouseX>=250)&(mouseX<=350)&(mouseY>=50)&(mouseY<=150))
+  {
+    println("green");
+    port.write("b");
+  }
+  else if((mouseX>=450)&(mouseX<=550)&(mouseY>=50)&(mouseY<=150))
+  {
+    println("blue");
+    port.write("c");
   }
 }
 
