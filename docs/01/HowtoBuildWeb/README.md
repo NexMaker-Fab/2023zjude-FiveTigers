@@ -417,9 +417,21 @@ Open your online page. Check your work.
 
 In this process, we first created a repository to test whether we could design the web page online and then push the file to GitHub, which proved to be feasible and the order did not affect the final web page effect
 
-<img src="img/webpage/ff2.png" width=1920>
+Create your own repository
+
+Go to the home page and click New button
+
+<img src="img/webpage/r1.png" width=1920>
+
+name your repository, choose public you can Add a README file for introducing.
+
+<img src="img/webpage/r2.png" width=1920>
 
 In this picture,repository named "MyFirstRepository" and "YousiaBlog" are for testing and practicing. They have nothing to do with official repository which named "2023zjude-FiveTigers".
+
+<img src="img/webpage/re.png" width=1920>
+
+
 
 ## How to work as a team
 1. Log in to your GitHub account and go to the repository where you want to set an administrator.
