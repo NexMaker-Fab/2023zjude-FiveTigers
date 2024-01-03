@@ -23,6 +23,8 @@
   
   - [5. Interface application programming](IAP/introduction.md)
     - [Interface](IAP/Interface.md)
+    - [Case](IAP/firework.md)
+    - [Nodebox](IAP/nodebox.md)
   
   - [6. 3D printing](3D/Introduction.md)
     - [Introduction](3D/Introduction.md)

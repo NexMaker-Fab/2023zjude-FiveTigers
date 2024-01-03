@@ -25,6 +25,7 @@ MQ-2 is commonly used for gas leakage monitoring in homes and factories, suitabl
 ## Circuit connection
 
 Here, LED RGB is used instead of the smoke sensor
+
 <img src="img/arduino/smoke/link.png" width=1080>
 
 <img src="img/arduino/smoke/img.jpg" width=1080>
