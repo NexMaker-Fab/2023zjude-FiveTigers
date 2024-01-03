@@ -293,7 +293,7 @@ Github desktop webpage：[GitHub desktop](https://desktop.github.com/)
    ![](../../img/webpage/co1.png)
    ![](../../img/webpage/co2.png)
 
-6. **How to clone,pull,push ypor project**
+6. **How to clone,pull,push your project**
    
   Reference：[GitHub Desktop代替git指令实现GitHub仓库push/pull/clone等操作](https://blog.csdn.net/gzn00417/article/details/104281308)
 
