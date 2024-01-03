@@ -400,9 +400,11 @@ In this picture,The name of the teacher's repository has been replaced with "inj
    
 To push code to someone else's repository on GitHub, you will need to have write access to that repository. Typically, you would need to send a pull request to the repository owner and, once it's accepted, you will be granted push access.
 
-Open repository with vscode for editting.
+Open repository with vscode for editting. Just click "Open in Visual Studio Code"
 
-<img src="img/webpage/t2.png" width=1920>
+<img src="img/webpage/ff2.png" width=1920>
+
+For more information about repository in GitHub, you can refer to the official GitHub documentation: [check this](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-relationships)
 
 Copy your website file to local repository and push.
 You can change and upload the page to github locally.
@@ -412,6 +414,12 @@ You can change and upload the page to github locally.
 Open your online page. Check your work.
    
    ![](../../img/webpage/ff1.png)
+
+In this process, we first created a repository to test whether we could design the web page online and then push the file to GitHub, which proved to be feasible and the order did not affect the final web page effect
+
+<img src="img/webpage/ff2.png" width=1920>
+
+In this picture,repository named "MyFirstRepository" and "YousiaBlog" are for testing and practicing. They have nothing to do with official repository which named "2023zjude-FiveTigers".
 
 ## How to work as a team
 1. Log in to your GitHub account and go to the repository where you want to set an administrator.
@@ -429,23 +437,11 @@ Open your online page. Check your work.
 
 Your team member will receive an invitation email. They can accept the invitation by clicking the link in the email.
 
-1. My team
+My team
 
 <img src="img/webpage/team3.png" width=1920>
 
-## The relationship in github for two repositories
 
-In GitHub, the relationship between two repositories can be established by creating a submodule or using external links. To establish a relationship between two repositories, you would first create a main repository and then add the other repository as a submodule to the main repository.
-
-To add a repository as a submodule to another repository, you can use the following command:
-
-```
-git submodule add <url_to_repository> <path_to_submodule>
-
-```
-This will create a submodule in the main repository that points to the other repository and add it to the .gitmodules file in the main repository.
-
-For more information about repository relationships in GitHub, you can refer to the official GitHub documentation: [check this](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-relationships)
 
 <!--## Markdown typography
 ### How to center a picture
