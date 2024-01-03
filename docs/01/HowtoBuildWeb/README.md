@@ -301,9 +301,19 @@ Github desktop webpage：[GitHub desktop](https://desktop.github.com/)
    
 To push code to someone else's repository on GitHub, you will need to have write access to that repository. Typically, you would need to send a pull request to the repository owner and, once it's accepted, you will be granted push access.
 
+
+
 <img src="img/webpage/re.png" width=1920>
 
-You just need open it with Github Desktop and download it to your local computer, copy your website files to the current folder, then you can push your website to Github.
+You just need open it with Github Desktop and download it to your local computer.
+
+<img src="img/webpage/t1.png" width=1920>
+
+Clone teacher's repository.
+
+<img src="img/webpage/t2.png" width=1920>
+
+copy your website files to the current folder, then you can push your website to Github.If you are an administrator, you can push directly to the repository without the need for fork and pull requests. Administrators have the permission to directly modify and commit to the repository.
 
 ## Deploy your page on Github
 Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)

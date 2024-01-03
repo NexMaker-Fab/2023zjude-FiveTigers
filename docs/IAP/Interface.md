@@ -1,5 +1,7 @@
 # Interface application programming
 
+To connect the interface application programming in processing. Interface application programming in processing allows users to create interactive and visual applications by using a combination of programming and graphical interface tools. It provides a way for users to interact with their programs through buttons, sliders, and other graphical elements, making it easier to create dynamic and engaging applications. Interface application programming in processing also allows for the integration of external devices, such as sensors or cameras, to further enhance the interactivity of the applications. 
+
 ## Communication Between Processing and Arduino
 
 ### Arduino Side:
@@ -66,7 +68,9 @@ void draw() {
 
 ## Wiring Method
 
-<img src="img/IAP/wire1.png" width=1080>
+We use 1K ohm resistance.
+
+<img src="img/IAP/wire2.png" width=1080>
 
 ## Code
 
