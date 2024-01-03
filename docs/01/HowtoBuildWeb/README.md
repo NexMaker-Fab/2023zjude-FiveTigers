@@ -297,6 +297,14 @@ Github desktop webpage：[GitHub desktop](https://desktop.github.com/)
    
   Reference：[GitHub Desktop代替git指令实现GitHub仓库push/pull/clone等操作](https://blog.csdn.net/gzn00417/article/details/104281308)
 
+7. **Push your website to teacher's repository**
+   
+To push code to someone else's repository on GitHub, you will need to have write access to that repository. Typically, you would need to send a pull request to the repository owner and, once it's accepted, you will be granted push access.
+
+<img src="img/webpage/re.png" width=1920>
+
+You just need open it with Github Desktop and download it to your local computer, copy your website files to the current folder, then you can push your website to Github.
+
 ## Deploy your page on Github
 Very easy to understand：[2.Web page setting](https://www.nexmaker.com/doc/1projectmanage/github&docsify.html)
 
