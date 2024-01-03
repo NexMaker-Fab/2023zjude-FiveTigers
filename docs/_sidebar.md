@@ -26,8 +26,9 @@
   
   - [6. 3D printing](3D/Introduction.md)
     - [Introduction](3D/Introduction.md)
-    - [3D printed mouse](3D/mouse.md)
     - [Rotary Mechanism](3D/rotary.md)
+    - [3D printed mouse](3D/mouse.md)
+    
 
   - [7. Computer-controlled cutting](CCC/intro.md)
     - [Introduction](CCC/intro.md)
