@@ -40,4 +40,5 @@
 - **Final project**
   - [Introduction](fin/intro.md)
   - [TouchDesigner](fin/tou.md)
+  - [App](fin/app.md)
  

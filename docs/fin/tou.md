@@ -1,10 +1,10 @@
-# touchdesigner端
+# Touchdesigner端
 
 arduino代码调整，能够实现：读取mpu6050的x方向与y方向，以及按钮按下的状态。同时联通蓝牙，进行蓝牙通讯，最终通过touchdesigner端接受到蓝牙串口信号，进行后续工作。
 
 进行相关的串口设置，使用了arduino nano type-c口，Processor选择328P。
 
-![Untitled](touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled.png)
+<img src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled.png" width=1080>
 
 代码如下，将其上传至Arduino
 
@@ -72,7 +72,7 @@ void loop() {
 
 记住其串口号
 
-![Graphein_2024-01-07_21-09-29.png](touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Graphein_2024-01-07_21-09-29.png)
+<img src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Graphein_2024-01-07_21-09-29.png" width=1080>
 
 打开xcom或其他串口调试助手，进行蓝牙通讯效果检测。
 
@@ -82,11 +82,11 @@ void loop() {
 
 连接成功后得到提示
 
-![Graphein_2024-01-07_21-10-40.png](touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Graphein_2024-01-07_21-10-40.png)
+<img src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Graphein_2024-01-07_21-10-40.png" width=1080>
 
 蓝牙通讯检测完毕，能够正常通讯。未防止串口占用，在检测完后需要断开串口。
 
-![Untitled](touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled%203.png)
+<img src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled%203.png" width=1080>
 
 ## touchdesigner端烟花效果实现
 
@@ -118,7 +118,7 @@ void loop() {
 
 在add中预览效果
 
-![Untitled](touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled%2010.png)
+<img src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled%2010.png" width=1080>
 
 得到效果如视频所示,视频1.mp4
 
@@ -212,7 +212,7 @@ merge上烟花孢子上升的模块，融合后连接跟随模式中同样的四
 
 在[https://www.e2esoft.com/ivcam/](https://www.e2esoft.com/ivcam/)下载ivcam软件，用于电脑段接收手机摄像头画面，默认安装即可
 
-![Untitled](touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled%2025.png)
+<img src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled%2025.png" width=1080>
 
 安装完成后手机端也同样访问上述网址安装手机端。
 
