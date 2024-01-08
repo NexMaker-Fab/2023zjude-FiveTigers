@@ -122,6 +122,8 @@ void loop() {
 
 得到效果如视频所示,视频1.mp4
 
+<video src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/视频1.mp4" width="1025px" height="500px" controls="controls"></video>
+
 ### 2. 放烟花模式
 
 建立球体，映射坐标，模式为Ramdom,通过particle建立爆炸的粒子效果
@@ -152,6 +154,8 @@ void loop() {
 
 得到效果如视频所示,视频2.mp4
 
+<video src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/视频2.mp4" width="1025px" height="500px" controls="controls"></video>
+
 ### 3. 随机平面字烟花呈现
 
 在grasshopper中创建字的文件，同时统一尺寸在xyz在-10到10中，尝试不同的字体
@@ -178,6 +182,8 @@ merge上烟花孢子上升的模块，融合后连接跟随模式中同样的四
 
 得到效果如视频所示,视频3.mp4
 
+<video src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/视频3.mp4" width="1025px" height="500px" controls="controls"></video>
+
 ### 4. 立体模型烟花呈现
 
 选取建立出合适的模型，通过rhino重拓补功能进行减面处理（防止touchdesigner卡死）
@@ -201,6 +207,8 @@ merge上烟花孢子上升的模块，融合后连接跟随模式中同样的四
 将模型粒子化以及通过force模块控制炸开的力效果。同时merge上烟花孢子上升的模块。融合后连接跟随模式中同样的四件套模块，实现，炸开的烟花效果。
 
 得到效果如视频所示,视频4.mp4
+
+<video src="fin/touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/视频4.mp4" width="1025px" height="500px" controls="controls"></video>
 
 ### 5. 模式的切换
 
@@ -245,5 +253,3 @@ ivcom应用内连接成功
 或采用腾讯会议进行屏幕共享。
 
 ![Untitled](touchdesigner%E7%AB%AF%20971b79550a73401591f45a70e640be3d/Untitled%203.jpeg)
-
-视频

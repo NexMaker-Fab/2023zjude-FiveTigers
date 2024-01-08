@@ -2,7 +2,9 @@
 
 ## 预览效果
 
-<video src="fin/APP%2010e3940a07584e41a39350b122b2d6b7/1.mp4" width="720px" height="500px" controls="controls"></video>
+<video src="fin/APP%2010e3940a07584e41a39350b122b2d6b7/1.mp4" width="1025px" height="500px" controls="controls"></video>
+
+<video src="fin/APP%2010e3940a07584e41a39350b122b2d6b7/sparkle.mp4" width="1025px" height="500px" controls="controls"></video>
 
 ## 所需工具
 
